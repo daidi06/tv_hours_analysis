@@ -11,3 +11,6 @@ tv_hours_tabulation <-  gss_cat %>%
   arrange(mean_tv_hours) 
 
 write_csv(tv_hours_tabulation, path = here("TV_hours_by_Marital.csv"))
+
+
+
